@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #0d6efd; /* Updated background to match SocioSell's blue */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.container {
+  background: #ffffff;
+  padding: 40px; /* Increased padding */
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px; /* Increased width */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #333; /* Darker text for better contrast */
+}
+
+.form-container {
+  width: 100%;
+}
+
+.input-group {
+  margin-bottom: 25px; /* Increased spacing */
+  position: relative;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 15px; /* Larger padding for bigger fields */
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  outline: none;
+  font-size: 16px; /* Slightly larger font size */
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #0d6efd; /* Blue border on focus */
+}
+
+button {
+  width: 100%;
+  padding: 15px; /* Larger button size */
+  background: #0d6efd; /* SocioSell blue color */
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px; /* Larger text */
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #084298; /* Darker blue on hover */
+  transform: scale(1.02);
+}
+
+p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px; /* Larger font size for better readability */
+  color: #333;
+}
+
+p span {
+  color: #0d6efd;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+p span:hover {
+  color: #084298;
+}
+
+/* Eye Icon Styling */
+.eye-icon {
+  position: absolute;
+  right: 15px;
+  top: 35px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #0d6efd;
+  transition: color 0.3s;
+}
+
+.eye-icon:hover {
+  color: #084298;
+}
